@@ -17,13 +17,13 @@ import { create } from 'zustand'
 
 const defaultNodes = [
 	{
-		id: '1',
+		id: 'MainRoad_1',
 		type: 'default',
 		position: { x: 0, y: 0 },
 		data: { label: '1', description: 'aaa' }
 	},
 	{
-		id: '2',
+		id: 'MainRoad_2',
 		type: 'default',
 		position: { x: 30, y: 30 },
 		data: { label: '2', description: 'aaa' }
@@ -163,11 +163,15 @@ const useFlowStore = create<StoreState>()((set, get) => ({
 				x: event.clientX - 125,
 				y: event.clientY - 30
 			})
+			console.log('123', get().nodes.at(-1))
+
+			const idNumber = Number(get().nodes.at(-1)?.id.split('_')[1]) as number
+
 			const newNode = {
 				id:
 					type === 'MainRoad'
-						? `MainRoad_${get().nodes.length + 1}`
-						: `SubRoad_${get().nodes.length + 1}`,
+						? `MainRoad_${idNumber + 1}`
+						: `SubRoad_${idNumber + 1}`,
 				type,
 				position,
 				data: { label: `${type} node` }
