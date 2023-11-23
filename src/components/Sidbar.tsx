@@ -19,11 +19,13 @@ const RoadNodesMapping: RoadMapNodes[] = [
 ]
 
 const NavbarContainer = styled.nav`
-	${tw`bg-gray-800 fixed top-0 w-full py-4 text-center z-50`}
+	${tw`bg-gray-500 fixed gap-[0.5rem] flex top-10 w-[80%] justify-center items-center py-4 text-center z-50 rounded-2xl`}
+	left: 50%;
+	transform: translateX(-50%);
 `
 
-const NavLink = styled.div`
-	${tw`text-[white] px-[20px] py-[15px] inline-block`}
+const NavBarButton = styled.div`
+	${tw`text-[white] text-[0.875rem] px-[20px] py-[15px] inline-block`}
 `
 
 export const SideBar = () => {
@@ -36,41 +38,41 @@ export const SideBar = () => {
 
 	return (
 		<NavbarContainer>
-			<NavLink
+			<NavBarButton
 				className="dndnode input"
 				onDragStart={(event) => onDragStart(event, 'input')}
 				draggable
 			>
-				<img src={aa} alt="" width={100} height={100} />
-			</NavLink>
-			<NavLink
+				<img src={aa} alt="" width={50} height={50} />
+			</NavBarButton>
+			<NavBarButton
 				className="dndnode"
 				onDragStart={(event) => onDragStart(event, 'MainRoad')}
 				draggable
 			>
 				MainRoad Node
-			</NavLink>
-			<NavLink
+			</NavBarButton>
+			<NavBarButton
 				className="dndnode output"
 				onDragStart={(event) => onDragStart(event, 'SubRoad_Small')}
 				draggable
 			>
 				SubRoad_Small
-			</NavLink>
-			<NavLink
+			</NavBarButton>
+			<NavBarButton
 				className="dndnode output"
 				onDragStart={(event) => onDragStart(event, 'SubRoad_Medium')}
 				draggable
 			>
 				SubRoad_Medium
-			</NavLink>
-			<NavLink
+			</NavBarButton>
+			<NavBarButton
 				className="dndnode output"
 				onDragStart={(event) => onDragStart(event, 'SubRoad_Large')}
 				draggable
 			>
 				SubRoad_Large
-			</NavLink>
+			</NavBarButton>
 			<ExportButton />
 			<Button onClickfn={fetchData}>fetch</Button>
 		</NavbarContainer>

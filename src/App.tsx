@@ -23,10 +23,11 @@ import 'reactflow/dist/style.css'
 import ExportButton from './components/ExportButton'
 import { SideBar } from './components/Sidbar'
 import { MainRoad } from './components/CustomNodes/MainRoad'
-import { SubRoad, SubRoad_Small } from './components/CustomNodes/SubRoad_Small'
+import { SubRoad_Small } from './components/CustomNodes/SubRoad_Small'
 import useFlowStore from './store/flow'
 import { SubRoad_Medium } from './components/CustomNodes/SubRoad_Medium'
 import { SubRoad_Large } from './components/CustomNodes/SubRoad_Large'
+import { useTranslation } from 'react-i18next'
 
 const ReactFlowContainer = styled.div`
 	${tw`w-screen h-screen`}
@@ -72,8 +73,20 @@ const nodeTypes = {
 }
 
 export default function App() {
+	const { t } = useTranslation()
+
 	// const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes)
 	// const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges)
+
+	const elements = [
+		// Nodes with translated labels
+		{
+			id: '1',
+			type: 'default',
+			data: { label: t('welcome') },
+			position: { x: 100, y: 100 }
+		}
+	]
 
 	const nodes = useFlowStore((state) => state.nodes)
 	const edges = useFlowStore((state) => state.edges)
@@ -90,8 +103,11 @@ export default function App() {
 	const handleNodeDrag = useFlowStore((state) => state.handleNodeDrag)
 	const handleNodeDrop = useFlowStore((state) => state.handleNodeDrop)
 
-	console.log(nodes)
-	console.log(edges)
+	const TNodes = nodes.map((item) => {
+		return { ...item, data: { ...item.data, label: t(item.data.label) } }
+	})
+	// console.log(JSON.stringify(nodes.map((item) => item.data.label)))
+	// console.log(edges)
 
 	const [reactFlowInstance, setReactFlowInstance] = useState(null)
 
@@ -111,10 +127,11 @@ export default function App() {
 
 	return (
 		<ReactFlowProvider>
+			<h1>{t('welcome')}</h1>
 			<ReactFlowContainer>
 				<SideBar />
 				<ReactFlow
-					nodes={nodes}
+					nodes={TNodes}
 					edges={edges}
 					onConnect={handleConnect}
 					onNodesChange={handleNodesChange}
@@ -129,12 +146,13 @@ export default function App() {
 					preventScrolling={false}
 					onlyRenderVisibleElements // 最佳化 僅渲染可見節點
 					onInit={setReactFlowInstance}
-					// onDrop={onDrop}
 					onDragOver={onDragOver}
 					onNodeDoubleClick={handleNodeDoubleClick}
-					nodeTypes={nodeTypes}
+					nodeTypes={nodeTypes as NodeTypes}
 					fitView
 					connectionMode={ConnectionMode.Loose}
+					// selectionMode={'full'}
+					// selectionOnDrag={true}
 				>
 					<Controls />
 					<MiniMap />

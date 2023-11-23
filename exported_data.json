@@ -1,1564 +1,1859 @@
 {
-  "nodes": [
-    {
-      "id": "MainRoad_1",
-      "type": "MainRoad",
-      "position": {
-        "x": -100,
-        "y": -130
-      },
-      "data": {
-        "label": "Internet"
-      },
-      "width": 150,
-      "height": 40,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -100,
-        "y": -130
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_2",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": 190,
-        "y": -130
-      },
-      "data": {
-        "label": "How does the internet work?"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 190,
-        "y": -130
-      }
-    },
-    {
-      "id": "SubRoad_3",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": 190,
-        "y": -90
-      },
-      "data": {
-        "label": "What is HTTP?"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 190,
-        "y": -90
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_4",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": 190,
-        "y": -50
-      },
-      "data": {
-        "label": "What is Domain Name?"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 190,
-        "y": -50
-      }
-    },
-    {
-      "id": "SubRoad_5",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": 190,
-        "y": -10
-      },
-      "data": {
-        "label": "What is Hoisting?"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 190,
-        "y": -10
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_6",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": 190,
-        "y": 30
-      },
-      "data": {
-        "label": "DNS and how it works?"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 190,
-        "y": 30
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_7",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": 190,
-        "y": 70
-      },
-      "data": {
-        "label": "Browser and how they work?"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 190,
-        "y": 70
-      },
-      "dragging": false
-    },
-    {
-      "id": "MainRoad_8",
-      "type": "MainRoad",
-      "position": {
-        "x": -540,
-        "y": -60
-      },
-      "data": {
-        "label": "HTML"
-      },
-      "width": 150,
-      "height": 40,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -540,
-        "y": -60
-      },
-      "dragging": false
-    },
-    {
-      "id": "MainRoad_9",
-      "type": "MainRoad",
-      "position": {
-        "x": -540,
-        "y": 200
-      },
-      "data": {
-        "label": "CSS"
-      },
-      "width": 150,
-      "height": 40,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -540,
-        "y": 200
-      },
-      "dragging": false
-    },
-    {
-      "id": "MainRoad_10",
-      "type": "MainRoad",
-      "position": {
-        "x": -50,
-        "y": 330
-      },
-      "data": {
-        "label": "JavaScript"
-      },
-      "width": 150,
-      "height": 40,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": -50,
-        "y": 330
-      }
-    },
-    {
-      "id": "SubRoad_11",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": -350,
-        "y": 200
-      },
-      "data": {
-        "label": "Learn the basics"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -350,
-        "y": 200
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_12",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": -350,
-        "y": 240
-      },
-      "data": {
-        "label": "Making Layouts"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -350,
-        "y": 240
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_13",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": -350,
-        "y": 280
-      },
-      "data": {
-        "label": "Responsive Design"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -350,
-        "y": 280
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_14",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": -90,
-        "y": 200
-      },
-      "data": {
-        "label": "Learn the Basics"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -90,
-        "y": 200
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_15",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": -90,
-        "y": 240
-      },
-      "data": {
-        "label": "Learn DOM Manipulaion"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -90,
-        "y": 240
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_16",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": -90,
-        "y": 280
-      },
-      "data": {
-        "label": "Fetch API / Ajax (XHR)"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -90,
-        "y": 280
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_17",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": -350,
-        "y": -60
-      },
-      "data": {
-        "label": "Learn the basics"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -350,
-        "y": -60
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_18",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": -350,
-        "y": -20
-      },
-      "data": {
-        "label": "Writing Semantic HTML"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -350,
-        "y": -20
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_19",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": -350,
-        "y": 20
-      },
-      "data": {
-        "label": "Forms and Validations"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -350,
-        "y": 20
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_20",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": -350,
-        "y": 60
-      },
-      "data": {
-        "label": "Accessibility"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -350,
-        "y": 60
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_21",
-      "type": "SubRoad_Large",
-      "position": {
-        "x": -350,
-        "y": 100
-      },
-      "data": {
-        "label": "SEO Basics"
-      },
-      "width": 220,
-      "height": 30,
-      "selected": false,
-      "dragging": false
-    },
-    {
-      "id": "MainRoad_22",
-      "type": "MainRoad",
-      "position": {
-        "x": 230,
-        "y": 330
-      },
-      "data": {
-        "label": "VCS Hosting"
-      },
-      "width": 150,
-      "height": 40,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 230,
-        "y": 330
-      },
-      "dragging": false
-    },
-    {
-      "id": "MainRoad_23",
-      "type": "MainRoad",
-      "position": {
-        "x": 160,
-        "y": 270
-      },
-      "data": {
-        "label": "Version Control System"
-      },
-      "width": 221,
-      "height": 40,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 160,
-        "y": 270
-      }
-    },
-    {
-      "id": "SubRoad_25",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": 230,
-        "y": 390
-      },
-      "data": {
-        "label": "GitHub"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 230,
-        "y": 390
-      },
-      "dragging": false
-    },
-    {
-      "id": "MainRoad_26",
-      "type": "MainRoad",
-      "position": {
-        "x": 210,
-        "y": 700
-      },
-      "data": {
-        "label": "Package Managers"
-      },
-      "width": 168,
-      "height": 40,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 210,
-        "y": 700
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_27",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": 230,
-        "y": 430
-      },
-      "data": {
-        "label": "GitLab"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 230,
-        "y": 430
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_28",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": 230,
-        "y": 470
-      },
-      "data": {
-        "label": "Bitbucket"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 230,
-        "y": 470
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_29",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": 230,
-        "y": 650
-      },
-      "data": {
-        "label": "yarn"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 230,
-        "y": 650
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_30",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": 230,
-        "y": 610
-      },
-      "data": {
-        "label": "pnpm"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 230,
-        "y": 610
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_31",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": 230,
-        "y": 570
-      },
-      "data": {
-        "label": "npm"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": 230,
-        "y": 570
-      },
-      "dragging": false
-    },
-    {
-      "id": "MainRoad_32",
-      "type": "MainRoad",
-      "position": {
-        "x": -40,
-        "y": 700
-      },
-      "data": {
-        "label": "Pick a Framework"
-      },
-      "width": 168,
-      "height": 40,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -40,
-        "y": 700
-      },
-      "dragging": false
-    },
-    {
-      "id": "MainRoad_33",
-      "type": "MainRoad",
-      "position": {
-        "x": -270,
-        "y": 700
-      },
-      "data": {
-        "label": "Writing CSS"
-      },
-      "width": 150,
-      "height": 40,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -270,
-        "y": 700
-      },
-      "dragging": false
-    },
-    {
-      "id": "MainRoad_34",
-      "type": "MainRoad",
-      "position": {
-        "x": -520,
-        "y": 700
-      },
-      "data": {
-        "label": "CSS Architecture"
-      },
-      "width": 168,
-      "height": 40,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -520,
-        "y": 700
-      },
-      "dragging": false
-    },
-    {
-      "id": "MainRoad_35",
-      "type": "MainRoad",
-      "position": {
-        "x": -520,
-        "y": 840
-      },
-      "data": {
-        "label": "CSS Preprocesssors"
-      },
-      "width": 186,
-      "height": 40,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -520,
-        "y": 840
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_36",
-      "type": "SubRoad_Small",
-      "position": {
-        "x": 230,
-        "y": 200
-      },
-      "data": {
-        "label": "Git"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 230,
-        "y": 200
-      }
-    },
-    {
-      "id": "SubRoad_36",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": 230,
-        "y": 200
-      },
-      "data": {
-        "label": "Git"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": 230,
-        "y": 200
-      }
-    },
-    {
-      "id": "SubRoad_37",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": -30,
-        "y": 570
-      },
-      "data": {
-        "label": "React"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -30,
-        "y": 570
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_38",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": -30,
-        "y": 610
-      },
-      "data": {
-        "label": "Vue.js"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": -30,
-        "y": 610
-      }
-    },
-    {
-      "id": "SubRoad_39",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": -30,
-        "y": 650
-      },
-      "data": {
-        "label": "Angular"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": -30,
-        "y": 650
-      }
-    },
-    {
-      "id": "SubRoad_40",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": -270,
-        "y": 650
-      },
-      "data": {
-        "label": "Tailwind"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -270,
-        "y": 650
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_41",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": -270,
-        "y": 610
-      },
-      "data": {
-        "label": "Radix UI"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -270,
-        "y": 610
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_42",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": -270,
-        "y": 570
-      },
-      "data": {
-        "label": "Shadcn UI"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -270,
-        "y": 570
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_43",
-      "type": "SubRoad_Small",
-      "position": {
-        "x": -520,
-        "y": 650
-      },
-      "data": {
-        "label": "BEM"
-      },
-      "width": 80,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -520,
-        "y": 650
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_44",
-      "type": "SubRoad_Small",
-      "position": {
-        "x": -270,
-        "y": 810
-      },
-      "data": {
-        "label": "Sass"
-      },
-      "width": 80,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -270,
-        "y": 810
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_45",
-      "type": "SubRoad_Small",
-      "position": {
-        "x": -270,
-        "y": 850
-      },
-      "data": {
-        "label": "PostCSS"
-      },
-      "width": 80,
-      "height": 30,
-      "selected": false,
-      "dragging": false,
-      "positionAbsolute": {
-        "x": -270,
-        "y": 850
-      }
-    },
-    {
-      "id": "MainRoad_46",
-      "type": "MainRoad",
-      "position": {
-        "x": -270,
-        "y": 970
-      },
-      "data": {
-        "label": "Bulid Tools"
-      },
-      "width": 150,
-      "height": 40,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -270,
-        "y": 970
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_47",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": -70,
-        "y": 900
-      },
-      "data": {
-        "label": "＊Module Bundlers"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -70,
-        "y": 900
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_48",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": -70,
-        "y": 940
-      },
-      "data": {
-        "label": "＊Task Runners"
-      },
-      "width": 150,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -70,
-        "y": 940
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_49",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": -70,
-        "y": 980
-      },
-      "data": {
-        "label": "＊Linters and Formatters"
-      },
-      "width": 186,
-      "height": 30,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -70,
-        "y": 980
-      },
-      "dragging": false
-    },
-    {
-      "id": "SubRoad_50",
-      "type": "SubRoad_Medium",
-      "position": {
-        "x": -70,
-        "y": 850
-      },
-      "data": {
-        "label": "SubRoad_Medium node"
-      },
-      "width": 153,
-      "height": 30,
-      "selected": true,
-      "positionAbsolute": {
-        "x": -70,
-        "y": 850
-      },
-      "dragging": false
-    }
-  ],
-  "edges": [
-    {
-      "source": "MainRoad_1",
-      "sourceHandle": "d",
-      "target": "SubRoad_2",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_1d-SubRoad_2c"
-    },
-    {
-      "source": "MainRoad_1",
-      "sourceHandle": "d",
-      "target": "SubRoad_3",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_1d-SubRoad_3c"
-    },
-    {
-      "source": "MainRoad_1",
-      "sourceHandle": "d",
-      "target": "SubRoad_4",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_1d-SubRoad_4c"
-    },
-    {
-      "source": "MainRoad_1",
-      "sourceHandle": "d",
-      "target": "SubRoad_5",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_1d-SubRoad_5c"
-    },
-    {
-      "source": "MainRoad_1",
-      "sourceHandle": "d",
-      "target": "SubRoad_6",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_1d-SubRoad_6c"
-    },
-    {
-      "source": "MainRoad_1",
-      "sourceHandle": "d",
-      "target": "SubRoad_7",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_1d-SubRoad_7c"
-    },
-    {
-      "source": "MainRoad_9",
-      "sourceHandle": "d",
-      "target": "SubRoad_11",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_9d-SubRoad_11c"
-    },
-    {
-      "source": "MainRoad_9",
-      "sourceHandle": "d",
-      "target": "SubRoad_12",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_9d-SubRoad_12c"
-    },
-    {
-      "source": "MainRoad_9",
-      "sourceHandle": "d",
-      "target": "SubRoad_13",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_9d-SubRoad_13c"
-    },
-    {
-      "source": "MainRoad_8",
-      "sourceHandle": "b",
-      "target": "MainRoad_9",
-      "targetHandle": "a",
-      "markerEnd": {
-        "type": "arrowclosed",
-        "width": 10,
-        "height": 10,
-        "color": "#0080ff"
-      },
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "type": "smoothstep",
-      "id": "reactflow__edge-MainRoad_8b-MainRoad_9a"
-    },
-    {
-      "source": "MainRoad_1",
-      "sourceHandle": "c",
-      "target": "MainRoad_8",
-      "targetHandle": "a",
-      "markerEnd": {
-        "type": "arrowclosed",
-        "width": 10,
-        "height": 10,
-        "color": "#0080ff"
-      },
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "type": "smoothstep",
-      "id": "reactflow__edge-MainRoad_1c-MainRoad_8a"
-    },
-    {
-      "source": "MainRoad_9",
-      "sourceHandle": "b",
-      "target": "MainRoad_10",
-      "targetHandle": "c",
-      "markerEnd": {
-        "type": "arrowclosed",
-        "width": 10,
-        "height": 10,
-        "color": "#0080ff"
-      },
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "type": "smoothstep",
-      "id": "reactflow__edge-MainRoad_9b-MainRoad_10c"
-    },
-    {
-      "source": "MainRoad_10",
-      "sourceHandle": "a",
-      "target": "SubRoad_16",
-      "targetHandle": "b",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_10a-SubRoad_16b"
-    },
-    {
-      "source": "SubRoad_16",
-      "sourceHandle": "a",
-      "target": "SubRoad_15",
-      "targetHandle": "b",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-SubRoad_16a-SubRoad_15b"
-    },
-    {
-      "source": "SubRoad_15",
-      "sourceHandle": "a",
-      "target": "SubRoad_14",
-      "targetHandle": "b",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-SubRoad_15a-SubRoad_14b"
-    },
-    {
-      "source": "MainRoad_8",
-      "sourceHandle": "d",
-      "target": "SubRoad_17",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_8d-SubRoad_17c"
-    },
-    {
-      "source": "MainRoad_8",
-      "sourceHandle": "d",
-      "target": "SubRoad_18",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_8d-SubRoad_18c"
-    },
-    {
-      "source": "MainRoad_8",
-      "sourceHandle": "d",
-      "target": "SubRoad_19",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_8d-SubRoad_19c"
-    },
-    {
-      "source": "MainRoad_8",
-      "sourceHandle": "d",
-      "target": "SubRoad_20",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_8d-SubRoad_20c"
-    },
-    {
-      "source": "MainRoad_8",
-      "sourceHandle": "d",
-      "target": "SubRoad_21",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_8d-SubRoad_21c"
-    },
-    {
-      "source": "MainRoad_10",
-      "sourceHandle": "d",
-      "target": "MainRoad_22",
-      "targetHandle": "c",
-      "markerEnd": {
-        "type": "arrowclosed",
-        "width": 10,
-        "height": 10,
-        "color": "#0080ff"
-      },
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "type": "smoothstep",
-      "id": "reactflow__edge-MainRoad_10d-MainRoad_22c"
-    },
-    {
-      "source": "MainRoad_22",
-      "sourceHandle": "d",
-      "target": "MainRoad_26",
-      "targetHandle": "d",
-      "markerEnd": {
-        "type": "arrowclosed",
-        "width": 10,
-        "height": 10,
-        "color": "#0080ff"
-      },
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "type": "smoothstep",
-      "id": "reactflow__edge-MainRoad_22d-MainRoad_26d"
-    },
-    {
-      "source": "MainRoad_26",
-      "sourceHandle": "a",
-      "target": "SubRoad_29",
-      "targetHandle": "b",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_26a-SubRoad_29b"
-    },
-    {
-      "source": "MainRoad_22",
-      "sourceHandle": "b",
-      "target": "SubRoad_25",
-      "targetHandle": "a",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_22b-SubRoad_25a"
-    },
-    {
-      "source": "SubRoad_25",
-      "sourceHandle": "b",
-      "target": "SubRoad_27",
-      "targetHandle": "a",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-SubRoad_25b-SubRoad_27a"
-    },
-    {
-      "source": "SubRoad_27",
-      "sourceHandle": "b",
-      "target": "SubRoad_28",
-      "targetHandle": "a",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-SubRoad_27b-SubRoad_28a"
-    },
-    {
-      "source": "SubRoad_31",
-      "sourceHandle": "b",
-      "target": "SubRoad_30",
-      "targetHandle": "a",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-SubRoad_31b-SubRoad_30a"
-    },
-    {
-      "source": "SubRoad_30",
-      "sourceHandle": "b",
-      "target": "SubRoad_29",
-      "targetHandle": "a",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-SubRoad_30b-SubRoad_29a"
-    },
-    {
-      "source": "MainRoad_32",
-      "sourceHandle": "a",
-      "target": "SubRoad_39",
-      "targetHandle": "b",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_32a-SubRoad_39b"
-    },
-    {
-      "source": "SubRoad_39",
-      "sourceHandle": "a",
-      "target": "SubRoad_38",
-      "targetHandle": "b",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-SubRoad_39a-SubRoad_38b"
-    },
-    {
-      "source": "SubRoad_38",
-      "sourceHandle": "a",
-      "target": "SubRoad_37",
-      "targetHandle": "b",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-SubRoad_38a-SubRoad_37b"
-    },
-    {
-      "source": "MainRoad_26",
-      "sourceHandle": "c",
-      "target": "MainRoad_32",
-      "targetHandle": "d",
-      "markerEnd": {
-        "type": "arrowclosed",
-        "width": 10,
-        "height": 10,
-        "color": "#0080ff"
-      },
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "type": "smoothstep",
-      "id": "reactflow__edge-MainRoad_26c-MainRoad_32d"
-    },
-    {
-      "source": "MainRoad_32",
-      "sourceHandle": "c",
-      "target": "MainRoad_33",
-      "targetHandle": "d",
-      "markerEnd": {
-        "type": "arrowclosed",
-        "width": 10,
-        "height": 10,
-        "color": "#0080ff"
-      },
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "type": "smoothstep",
-      "id": "reactflow__edge-MainRoad_32c-MainRoad_33d"
-    },
-    {
-      "source": "MainRoad_33",
-      "sourceHandle": "c",
-      "target": "MainRoad_34",
-      "targetHandle": "d",
-      "markerEnd": {
-        "type": "arrowclosed",
-        "width": 10,
-        "height": 10,
-        "color": "#0080ff"
-      },
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "type": "smoothstep",
-      "id": "reactflow__edge-MainRoad_33c-MainRoad_34d"
-    },
-    {
-      "source": "MainRoad_34",
-      "sourceHandle": "c",
-      "target": "MainRoad_35",
-      "targetHandle": "c",
-      "markerEnd": {
-        "type": "arrowclosed",
-        "width": 10,
-        "height": 10,
-        "color": "#0080ff"
-      },
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "type": "smoothstep",
-      "id": "reactflow__edge-MainRoad_34c-MainRoad_35c"
-    },
-    {
-      "source": "MainRoad_33",
-      "sourceHandle": "a",
-      "target": "SubRoad_40",
-      "targetHandle": "b",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_33a-SubRoad_40b"
-    },
-    {
-      "source": "SubRoad_40",
-      "sourceHandle": "a",
-      "target": "SubRoad_41",
-      "targetHandle": "b",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-SubRoad_40a-SubRoad_41b"
-    },
-    {
-      "source": "SubRoad_41",
-      "sourceHandle": "a",
-      "target": "SubRoad_42",
-      "targetHandle": "b",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-SubRoad_41a-SubRoad_42b"
-    },
-    {
-      "source": "SubRoad_43",
-      "sourceHandle": "b",
-      "target": "MainRoad_34",
-      "targetHandle": "a",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-SubRoad_43b-MainRoad_34a"
-    },
-    {
-      "source": "MainRoad_35",
-      "sourceHandle": "d",
-      "target": "SubRoad_45",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_35d-SubRoad_45c"
-    },
-    {
-      "source": "MainRoad_35",
-      "sourceHandle": "d",
-      "target": "SubRoad_44",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_35d-SubRoad_44c"
-    },
-    {
-      "source": "MainRoad_35",
-      "sourceHandle": "b",
-      "target": "MainRoad_46",
-      "targetHandle": "c",
-      "markerEnd": {
-        "type": "arrowclosed",
-        "width": 10,
-        "height": 10,
-        "color": "#0080ff"
-      },
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "type": "smoothstep",
-      "id": "reactflow__edge-MainRoad_35b-MainRoad_46c"
-    },
-    {
-      "source": "MainRoad_23",
-      "sourceHandle": "a",
-      "target": "SubRoad_36",
-      "targetHandle": "b",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_23a-SubRoad_36b"
-    },
-    {
-      "source": "MainRoad_46",
-      "sourceHandle": "d",
-      "target": "SubRoad_49",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_46d-SubRoad_49c"
-    },
-    {
-      "source": "MainRoad_46",
-      "sourceHandle": "d",
-      "target": "SubRoad_48",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_46d-SubRoad_48c"
-    },
-    {
-      "source": "MainRoad_46",
-      "sourceHandle": "d",
-      "target": "SubRoad_47",
-      "targetHandle": "c",
-      "style": {
-        "strokeWidth": 2,
-        "stroke": "#0080ff"
-      },
-      "animated": true,
-      "id": "reactflow__edge-MainRoad_46d-SubRoad_47c"
-    }
-  ]
+	"nodes": [
+		{
+			"id": "MainRoad_1",
+			"type": "MainRoad",
+			"position": {
+				"x": -100,
+				"y": -130
+			},
+			"data": {
+				"label": "Internet",
+				"url": "這是網址"
+			},
+			"width": 150,
+			"height": 40,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -100,
+				"y": -130
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_2",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": 190,
+				"y": -130
+			},
+			"data": {
+				"label": "How does the internet work?"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 190,
+				"y": -130
+			}
+		},
+		{
+			"id": "SubRoad_3",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": 190,
+				"y": -90
+			},
+			"data": {
+				"label": "What is HTTP?"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 190,
+				"y": -90
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_4",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": 190,
+				"y": -50
+			},
+			"data": {
+				"label": "What is Domain Name?"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 190,
+				"y": -50
+			}
+		},
+		{
+			"id": "SubRoad_5",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": 190,
+				"y": -10
+			},
+			"data": {
+				"label": "What is Hoisting?"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 190,
+				"y": -10
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_6",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": 190,
+				"y": 30
+			},
+			"data": {
+				"label": "DNS and how it works?"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 190,
+				"y": 30
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_7",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": 190,
+				"y": 70
+			},
+			"data": {
+				"label": "Browser and how they work?"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 190,
+				"y": 70
+			},
+			"dragging": false
+		},
+		{
+			"id": "MainRoad_8",
+			"type": "MainRoad",
+			"position": {
+				"x": -540,
+				"y": -60
+			},
+			"data": {
+				"label": "HTML"
+			},
+			"width": 150,
+			"height": 40,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -540,
+				"y": -60
+			},
+			"dragging": false
+		},
+		{
+			"id": "MainRoad_9",
+			"type": "MainRoad",
+			"position": {
+				"x": -540,
+				"y": 200
+			},
+			"data": {
+				"label": "CSS"
+			},
+			"width": 150,
+			"height": 40,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -540,
+				"y": 200
+			},
+			"dragging": false
+		},
+		{
+			"id": "MainRoad_10",
+			"type": "MainRoad",
+			"position": {
+				"x": -50,
+				"y": 330
+			},
+			"data": {
+				"label": "JavaScript"
+			},
+			"width": 150,
+			"height": 40,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": -50,
+				"y": 330
+			}
+		},
+		{
+			"id": "SubRoad_11",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": -350,
+				"y": 200
+			},
+			"data": {
+				"label": "Learn the basics"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -350,
+				"y": 200
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_12",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": -350,
+				"y": 240
+			},
+			"data": {
+				"label": "Making Layouts"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -350,
+				"y": 240
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_13",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": -350,
+				"y": 280
+			},
+			"data": {
+				"label": "Responsive Design"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -350,
+				"y": 280
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_14",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": -90,
+				"y": 200
+			},
+			"data": {
+				"label": "Learn the basics"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -90,
+				"y": 200
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_15",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": -90,
+				"y": 240
+			},
+			"data": {
+				"label": "Learn DOM Manipulation"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -90,
+				"y": 240
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_16",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": -90,
+				"y": 280
+			},
+			"data": {
+				"label": "Fetch API / Ajax (XHR)"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -90,
+				"y": 280
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_17",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": -350,
+				"y": -60
+			},
+			"data": {
+				"label": "Learn the basics"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -350,
+				"y": -60
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_18",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": -350,
+				"y": -20
+			},
+			"data": {
+				"label": "Writing Semantic HTML"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -350,
+				"y": -20
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_19",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": -350,
+				"y": 20
+			},
+			"data": {
+				"label": "Forms and Validations"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -350,
+				"y": 20
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_20",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": -350,
+				"y": 60
+			},
+			"data": {
+				"label": "Accessibility"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -350,
+				"y": 60
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_21",
+			"type": "SubRoad_Large",
+			"position": {
+				"x": -350,
+				"y": 100
+			},
+			"data": {
+				"label": "SEO Basics"
+			},
+			"width": 220,
+			"height": 30,
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "MainRoad_22",
+			"type": "MainRoad",
+			"position": {
+				"x": 230,
+				"y": 330
+			},
+			"data": {
+				"label": "VCS Hosting"
+			},
+			"width": 150,
+			"height": 40,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 230,
+				"y": 330
+			},
+			"dragging": false
+		},
+		{
+			"id": "MainRoad_23",
+			"type": "MainRoad",
+			"position": {
+				"x": 160,
+				"y": 270
+			},
+			"data": {
+				"label": "Version Control System"
+			},
+			"width": 220,
+			"height": 40,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 160,
+				"y": 270
+			}
+		},
+		{
+			"id": "SubRoad_25",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": 230,
+				"y": 390
+			},
+			"data": {
+				"label": "GitHub"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 230,
+				"y": 390
+			},
+			"dragging": false
+		},
+		{
+			"id": "MainRoad_26",
+			"type": "MainRoad",
+			"position": {
+				"x": 210,
+				"y": 700
+			},
+			"data": {
+				"label": "Package Managers"
+			},
+			"width": 167,
+			"height": 40,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 210,
+				"y": 700
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_27",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": 230,
+				"y": 430
+			},
+			"data": {
+				"label": "GitLab"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 230,
+				"y": 430
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_28",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": 230,
+				"y": 470
+			},
+			"data": {
+				"label": "Bitbucket"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 230,
+				"y": 470
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_29",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": 230,
+				"y": 650
+			},
+			"data": {
+				"label": "yarn"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 230,
+				"y": 650
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_30",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": 230,
+				"y": 610
+			},
+			"data": {
+				"label": "pnpm"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 230,
+				"y": 610
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_31",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": 230,
+				"y": 570
+			},
+			"data": {
+				"label": "npm"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 230,
+				"y": 570
+			},
+			"dragging": false
+		},
+		{
+			"id": "MainRoad_32",
+			"type": "MainRoad",
+			"position": {
+				"x": -40,
+				"y": 700
+			},
+			"data": {
+				"label": "Pick a Framework"
+			},
+			"width": 167,
+			"height": 40,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -40,
+				"y": 700
+			},
+			"dragging": false
+		},
+		{
+			"id": "MainRoad_33",
+			"type": "MainRoad",
+			"position": {
+				"x": -270,
+				"y": 700
+			},
+			"data": {
+				"label": "Writing CSS"
+			},
+			"width": 150,
+			"height": 40,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -270,
+				"y": 700
+			},
+			"dragging": false
+		},
+		{
+			"id": "MainRoad_34",
+			"type": "MainRoad",
+			"position": {
+				"x": -520,
+				"y": 700
+			},
+			"data": {
+				"label": "CSS Architecture"
+			},
+			"width": 167,
+			"height": 40,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -520,
+				"y": 700
+			},
+			"dragging": false
+		},
+		{
+			"id": "MainRoad_35",
+			"type": "MainRoad",
+			"position": {
+				"x": -520,
+				"y": 840
+			},
+			"data": {
+				"label": "CSS Preprocessors"
+			},
+			"width": 185,
+			"height": 40,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -520,
+				"y": 840
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_36",
+			"type": "SubRoad_Small",
+			"position": {
+				"x": 230,
+				"y": 200
+			},
+			"data": {
+				"label": "Git"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 230,
+				"y": 200
+			}
+		},
+		{
+			"id": "SubRoad_36",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": 230,
+				"y": 200
+			},
+			"data": {
+				"label": "Git"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 230,
+				"y": 200
+			}
+		},
+		{
+			"id": "SubRoad_37",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": -30,
+				"y": 570
+			},
+			"data": {
+				"label": "React"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -30,
+				"y": 570
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_38",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": -30,
+				"y": 610
+			},
+			"data": {
+				"label": "Vue.js"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": -30,
+				"y": 610
+			}
+		},
+		{
+			"id": "SubRoad_39",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": -30,
+				"y": 650
+			},
+			"data": {
+				"label": "Angular"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": -30,
+				"y": 650
+			}
+		},
+		{
+			"id": "SubRoad_40",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": -270,
+				"y": 650
+			},
+			"data": {
+				"label": "Tailwind"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -270,
+				"y": 650
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_41",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": -270,
+				"y": 610
+			},
+			"data": {
+				"label": "Radix UI"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -270,
+				"y": 610
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_42",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": -270,
+				"y": 570
+			},
+			"data": {
+				"label": "Shadcn UI"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -270,
+				"y": 570
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_43",
+			"type": "SubRoad_Small",
+			"position": {
+				"x": -520,
+				"y": 650
+			},
+			"data": {
+				"label": "BEM"
+			},
+			"width": 80,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -520,
+				"y": 650
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_44",
+			"type": "SubRoad_Small",
+			"position": {
+				"x": -270,
+				"y": 810
+			},
+			"data": {
+				"label": "Sass"
+			},
+			"width": 80,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -270,
+				"y": 810
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_45",
+			"type": "SubRoad_Small",
+			"position": {
+				"x": -270,
+				"y": 850
+			},
+			"data": {
+				"label": "PostCSS"
+			},
+			"width": 80,
+			"height": 30,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": -270,
+				"y": 850
+			}
+		},
+		{
+			"id": "MainRoad_46",
+			"type": "MainRoad",
+			"position": {
+				"x": -190,
+				"y": 920
+			},
+			"data": {
+				"label": "Build Tools"
+			},
+			"width": 150,
+			"height": 40,
+			"selected": true,
+			"positionAbsolute": {
+				"x": -190,
+				"y": 920
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_47",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": 60,
+				"y": 920
+			},
+			"data": {
+				"label": "*Module Bundlers"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 60,
+				"y": 920
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_48",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": 60,
+				"y": 960
+			},
+			"data": {
+				"label": "*Task Runners"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 60,
+				"y": 960
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_49",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": 60,
+				"y": 1000
+			},
+			"data": {
+				"label": "*Linters and Formatters"
+			},
+			"width": 184,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 60,
+				"y": 1000
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_52",
+			"type": "SubRoad_Small",
+			"position": {
+				"x": 310,
+				"y": 760
+			},
+			"data": {
+				"label": "Vite"
+			},
+			"width": 80,
+			"height": 30,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 310,
+				"y": 760
+			}
+		},
+		{
+			"id": "SubRoad_53",
+			"type": "SubRoad_Small",
+			"position": {
+				"x": 310,
+				"y": 800
+			},
+			"data": {
+				"label": "esbuild"
+			},
+			"width": 80,
+			"height": 30,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 310,
+				"y": 800
+			}
+		},
+		{
+			"id": "SubRoad_54",
+			"type": "SubRoad_Small",
+			"position": {
+				"x": 310,
+				"y": 840
+			},
+			"data": {
+				"label": "Webpack"
+			},
+			"width": 80,
+			"height": 30,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 310,
+				"y": 840
+			}
+		},
+		{
+			"id": "SubRoad_55",
+			"type": "SubRoad_Small",
+			"position": {
+				"x": 310,
+				"y": 880
+			},
+			"data": {
+				"label": "Rollup"
+			},
+			"width": 80,
+			"height": 30,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 310,
+				"y": 880
+			}
+		},
+		{
+			"id": "SubRoad_56",
+			"type": "SubRoad_Small",
+			"position": {
+				"x": 310,
+				"y": 920
+			},
+			"data": {
+				"label": "Parcel"
+			},
+			"width": 80,
+			"height": 30,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 310,
+				"y": 920
+			}
+		},
+		{
+			"id": "SubRoad_57",
+			"type": "SubRoad_Small",
+			"position": {
+				"x": 310,
+				"y": 1000
+			},
+			"data": {
+				"label": "Prettier"
+			},
+			"width": 80,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": 310,
+				"y": 1000
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_58",
+			"type": "SubRoad_Small",
+			"position": {
+				"x": 290,
+				"y": 960
+			},
+			"data": {
+				"label": "npm scripts"
+			},
+			"width": 99,
+			"height": 30,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 290,
+				"y": 960
+			}
+		},
+		{
+			"id": "SubRoad_59",
+			"type": "SubRoad_Small",
+			"position": {
+				"x": 310,
+				"y": 1040
+			},
+			"data": {
+				"label": "ESLInt"
+			},
+			"width": 80,
+			"height": 30,
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 310,
+				"y": 1040
+			}
+		},
+		{
+			"id": "SubRoad_60",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": -30,
+				"y": 750
+			},
+			"data": {
+				"label": "Svelte"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_61",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": -30,
+				"y": 790
+			},
+			"data": {
+				"label": "Solid.js"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -30,
+				"y": 790
+			},
+			"dragging": false
+		},
+		{
+			"id": "SubRoad_62",
+			"type": "SubRoad_Medium",
+			"position": {
+				"x": -30,
+				"y": 830
+			},
+			"data": {
+				"label": "Qwik"
+			},
+			"width": 150,
+			"height": 30,
+			"selected": false,
+			"positionAbsolute": {
+				"x": -30,
+				"y": 830
+			},
+			"dragging": false
+		}
+	],
+	"edges": [
+		{
+			"source": "MainRoad_1",
+			"sourceHandle": "d",
+			"target": "SubRoad_2",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_1d-SubRoad_2c"
+		},
+		{
+			"source": "MainRoad_1",
+			"sourceHandle": "d",
+			"target": "SubRoad_3",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_1d-SubRoad_3c"
+		},
+		{
+			"source": "MainRoad_1",
+			"sourceHandle": "d",
+			"target": "SubRoad_4",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_1d-SubRoad_4c"
+		},
+		{
+			"source": "MainRoad_1",
+			"sourceHandle": "d",
+			"target": "SubRoad_5",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_1d-SubRoad_5c"
+		},
+		{
+			"source": "MainRoad_1",
+			"sourceHandle": "d",
+			"target": "SubRoad_6",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_1d-SubRoad_6c"
+		},
+		{
+			"source": "MainRoad_1",
+			"sourceHandle": "d",
+			"target": "SubRoad_7",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_1d-SubRoad_7c"
+		},
+		{
+			"source": "MainRoad_9",
+			"sourceHandle": "d",
+			"target": "SubRoad_11",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_9d-SubRoad_11c"
+		},
+		{
+			"source": "MainRoad_9",
+			"sourceHandle": "d",
+			"target": "SubRoad_12",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_9d-SubRoad_12c"
+		},
+		{
+			"source": "MainRoad_9",
+			"sourceHandle": "d",
+			"target": "SubRoad_13",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_9d-SubRoad_13c"
+		},
+		{
+			"source": "MainRoad_8",
+			"sourceHandle": "b",
+			"target": "MainRoad_9",
+			"targetHandle": "a",
+			"markerEnd": {
+				"type": "arrowclosed",
+				"width": 10,
+				"height": 10,
+				"color": "#0080ff"
+			},
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"type": "smoothstep",
+			"id": "reactflow__edge-MainRoad_8b-MainRoad_9a"
+		},
+		{
+			"source": "MainRoad_1",
+			"sourceHandle": "c",
+			"target": "MainRoad_8",
+			"targetHandle": "a",
+			"markerEnd": {
+				"type": "arrowclosed",
+				"width": 10,
+				"height": 10,
+				"color": "#0080ff"
+			},
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"type": "smoothstep",
+			"id": "reactflow__edge-MainRoad_1c-MainRoad_8a"
+		},
+		{
+			"source": "MainRoad_9",
+			"sourceHandle": "b",
+			"target": "MainRoad_10",
+			"targetHandle": "c",
+			"markerEnd": {
+				"type": "arrowclosed",
+				"width": 10,
+				"height": 10,
+				"color": "#0080ff"
+			},
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"type": "smoothstep",
+			"id": "reactflow__edge-MainRoad_9b-MainRoad_10c"
+		},
+		{
+			"source": "MainRoad_10",
+			"sourceHandle": "a",
+			"target": "SubRoad_16",
+			"targetHandle": "b",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_10a-SubRoad_16b"
+		},
+		{
+			"source": "SubRoad_16",
+			"sourceHandle": "a",
+			"target": "SubRoad_15",
+			"targetHandle": "b",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_16a-SubRoad_15b"
+		},
+		{
+			"source": "SubRoad_15",
+			"sourceHandle": "a",
+			"target": "SubRoad_14",
+			"targetHandle": "b",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_15a-SubRoad_14b"
+		},
+		{
+			"source": "MainRoad_8",
+			"sourceHandle": "d",
+			"target": "SubRoad_17",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_8d-SubRoad_17c"
+		},
+		{
+			"source": "MainRoad_8",
+			"sourceHandle": "d",
+			"target": "SubRoad_18",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_8d-SubRoad_18c"
+		},
+		{
+			"source": "MainRoad_8",
+			"sourceHandle": "d",
+			"target": "SubRoad_19",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_8d-SubRoad_19c"
+		},
+		{
+			"source": "MainRoad_8",
+			"sourceHandle": "d",
+			"target": "SubRoad_20",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_8d-SubRoad_20c"
+		},
+		{
+			"source": "MainRoad_8",
+			"sourceHandle": "d",
+			"target": "SubRoad_21",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_8d-SubRoad_21c"
+		},
+		{
+			"source": "MainRoad_10",
+			"sourceHandle": "d",
+			"target": "MainRoad_22",
+			"targetHandle": "c",
+			"markerEnd": {
+				"type": "arrowclosed",
+				"width": 10,
+				"height": 10,
+				"color": "#0080ff"
+			},
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"type": "smoothstep",
+			"id": "reactflow__edge-MainRoad_10d-MainRoad_22c"
+		},
+		{
+			"source": "MainRoad_22",
+			"sourceHandle": "d",
+			"target": "MainRoad_26",
+			"targetHandle": "d",
+			"markerEnd": {
+				"type": "arrowclosed",
+				"width": 10,
+				"height": 10,
+				"color": "#0080ff"
+			},
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"type": "smoothstep",
+			"id": "reactflow__edge-MainRoad_22d-MainRoad_26d"
+		},
+		{
+			"source": "MainRoad_26",
+			"sourceHandle": "a",
+			"target": "SubRoad_29",
+			"targetHandle": "b",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_26a-SubRoad_29b"
+		},
+		{
+			"source": "MainRoad_22",
+			"sourceHandle": "b",
+			"target": "SubRoad_25",
+			"targetHandle": "a",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_22b-SubRoad_25a"
+		},
+		{
+			"source": "SubRoad_25",
+			"sourceHandle": "b",
+			"target": "SubRoad_27",
+			"targetHandle": "a",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_25b-SubRoad_27a"
+		},
+		{
+			"source": "SubRoad_27",
+			"sourceHandle": "b",
+			"target": "SubRoad_28",
+			"targetHandle": "a",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_27b-SubRoad_28a"
+		},
+		{
+			"source": "SubRoad_31",
+			"sourceHandle": "b",
+			"target": "SubRoad_30",
+			"targetHandle": "a",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_31b-SubRoad_30a"
+		},
+		{
+			"source": "SubRoad_30",
+			"sourceHandle": "b",
+			"target": "SubRoad_29",
+			"targetHandle": "a",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_30b-SubRoad_29a"
+		},
+		{
+			"source": "MainRoad_32",
+			"sourceHandle": "a",
+			"target": "SubRoad_39",
+			"targetHandle": "b",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_32a-SubRoad_39b"
+		},
+		{
+			"source": "SubRoad_39",
+			"sourceHandle": "a",
+			"target": "SubRoad_38",
+			"targetHandle": "b",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_39a-SubRoad_38b"
+		},
+		{
+			"source": "SubRoad_38",
+			"sourceHandle": "a",
+			"target": "SubRoad_37",
+			"targetHandle": "b",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_38a-SubRoad_37b"
+		},
+		{
+			"source": "MainRoad_26",
+			"sourceHandle": "c",
+			"target": "MainRoad_32",
+			"targetHandle": "d",
+			"markerEnd": {
+				"type": "arrowclosed",
+				"width": 10,
+				"height": 10,
+				"color": "#0080ff"
+			},
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"type": "smoothstep",
+			"id": "reactflow__edge-MainRoad_26c-MainRoad_32d"
+		},
+		{
+			"source": "MainRoad_32",
+			"sourceHandle": "c",
+			"target": "MainRoad_33",
+			"targetHandle": "d",
+			"markerEnd": {
+				"type": "arrowclosed",
+				"width": 10,
+				"height": 10,
+				"color": "#0080ff"
+			},
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"type": "smoothstep",
+			"id": "reactflow__edge-MainRoad_32c-MainRoad_33d"
+		},
+		{
+			"source": "MainRoad_33",
+			"sourceHandle": "c",
+			"target": "MainRoad_34",
+			"targetHandle": "d",
+			"markerEnd": {
+				"type": "arrowclosed",
+				"width": 10,
+				"height": 10,
+				"color": "#0080ff"
+			},
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"type": "smoothstep",
+			"id": "reactflow__edge-MainRoad_33c-MainRoad_34d"
+		},
+		{
+			"source": "MainRoad_34",
+			"sourceHandle": "c",
+			"target": "MainRoad_35",
+			"targetHandle": "c",
+			"markerEnd": {
+				"type": "arrowclosed",
+				"width": 10,
+				"height": 10,
+				"color": "#0080ff"
+			},
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"type": "smoothstep",
+			"id": "reactflow__edge-MainRoad_34c-MainRoad_35c"
+		},
+		{
+			"source": "MainRoad_33",
+			"sourceHandle": "a",
+			"target": "SubRoad_40",
+			"targetHandle": "b",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_33a-SubRoad_40b"
+		},
+		{
+			"source": "SubRoad_40",
+			"sourceHandle": "a",
+			"target": "SubRoad_41",
+			"targetHandle": "b",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_40a-SubRoad_41b"
+		},
+		{
+			"source": "SubRoad_41",
+			"sourceHandle": "a",
+			"target": "SubRoad_42",
+			"targetHandle": "b",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_41a-SubRoad_42b"
+		},
+		{
+			"source": "SubRoad_43",
+			"sourceHandle": "b",
+			"target": "MainRoad_34",
+			"targetHandle": "a",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_43b-MainRoad_34a"
+		},
+		{
+			"source": "MainRoad_35",
+			"sourceHandle": "d",
+			"target": "SubRoad_45",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_35d-SubRoad_45c"
+		},
+		{
+			"source": "MainRoad_35",
+			"sourceHandle": "d",
+			"target": "SubRoad_44",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_35d-SubRoad_44c"
+		},
+		{
+			"source": "MainRoad_35",
+			"sourceHandle": "b",
+			"target": "MainRoad_46",
+			"targetHandle": "c",
+			"markerEnd": {
+				"type": "arrowclosed",
+				"width": 10,
+				"height": 10,
+				"color": "#0080ff"
+			},
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"type": "smoothstep",
+			"id": "reactflow__edge-MainRoad_35b-MainRoad_46c",
+			"selected": false
+		},
+		{
+			"source": "MainRoad_23",
+			"sourceHandle": "a",
+			"target": "SubRoad_36",
+			"targetHandle": "b",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_23a-SubRoad_36b"
+		},
+		{
+			"source": "MainRoad_46",
+			"sourceHandle": "d",
+			"target": "SubRoad_49",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_46d-SubRoad_49c",
+			"selected": false
+		},
+		{
+			"source": "MainRoad_46",
+			"sourceHandle": "d",
+			"target": "SubRoad_48",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_46d-SubRoad_48c",
+			"selected": false
+		},
+		{
+			"source": "MainRoad_46",
+			"sourceHandle": "d",
+			"target": "SubRoad_47",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-MainRoad_46d-SubRoad_47c",
+			"selected": false
+		},
+		{
+			"source": "SubRoad_48",
+			"sourceHandle": "d",
+			"target": "SubRoad_58",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_48d-SubRoad_58c",
+			"selected": false
+		},
+		{
+			"source": "SubRoad_49",
+			"sourceHandle": "d",
+			"target": "SubRoad_59",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_49d-SubRoad_59c",
+			"selected": false
+		},
+		{
+			"source": "SubRoad_47",
+			"sourceHandle": "d",
+			"target": "SubRoad_53",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_47d-SubRoad_53c",
+			"selected": false
+		},
+		{
+			"source": "SubRoad_47",
+			"sourceHandle": "d",
+			"target": "SubRoad_52",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_47d-SubRoad_52c",
+			"selected": false
+		},
+		{
+			"source": "SubRoad_47",
+			"sourceHandle": "d",
+			"target": "SubRoad_54",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_47d-SubRoad_54c",
+			"selected": false
+		},
+		{
+			"source": "SubRoad_47",
+			"sourceHandle": "d",
+			"target": "SubRoad_55",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_47d-SubRoad_55c",
+			"selected": false
+		},
+		{
+			"source": "SubRoad_47",
+			"sourceHandle": "d",
+			"target": "SubRoad_56",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_47d-SubRoad_56c",
+			"selected": false
+		},
+		{
+			"source": "SubRoad_49",
+			"sourceHandle": "d",
+			"target": "SubRoad_57",
+			"targetHandle": "c",
+			"style": {
+				"strokeWidth": 2,
+				"stroke": "#0080ff"
+			},
+			"animated": true,
+			"id": "reactflow__edge-SubRoad_49d-SubRoad_57c",
+			"selected": false
+		}
+	]
 }

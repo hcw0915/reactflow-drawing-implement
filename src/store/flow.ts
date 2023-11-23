@@ -20,7 +20,7 @@ const defaultNodes = [
 		id: 'MainRoad_1',
 		type: 'default',
 		position: { x: 0, y: 0 },
-		data: { label: '1', description: 'aaa' }
+		data: { label: 'welcome', description: 'aaa' }
 	},
 	{
 		id: 'MainRoad_2',
@@ -125,6 +125,7 @@ const useFlowStore = create<StoreState>()((set, get) => ({
 
 	handleNodeClick: (event, element) => {
 		set((state) => state)
+		console.log(element.data.url)
 	},
 
 	handleNodeDoubleClick: (event, element) => {
@@ -154,8 +155,6 @@ const useFlowStore = create<StoreState>()((set, get) => ({
 
 	handleNodeDrop: (event, instance) => {
 		set((state) => {
-			console.log('instance', instance)
-
 			event.preventDefault()
 			const type = event?.dataTransfer?.getData('application/reactflow')
 			if (typeof type === 'undefined' || !type) return
@@ -163,7 +162,6 @@ const useFlowStore = create<StoreState>()((set, get) => ({
 				x: event.clientX - 125,
 				y: event.clientY - 30
 			})
-			console.log('123', get().nodes.at(-1))
 
 			const idNumber = Number(get().nodes.at(-1)?.id.split('_')[1]) as number
 
