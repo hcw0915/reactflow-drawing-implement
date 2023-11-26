@@ -183,6 +183,11 @@ const useFlowStore = create<StoreState>()((set, get) => ({
 		console.log('onNodeMouseEnter', element)
 	},
 
+	// handleDragOver: (event: DragEvent<HTMLDivElement>) => {
+	// 	event.preventDefault()
+	// 	// event?.dataTransfer?.dropEffect = 'move'
+	// }
+
 	fetchData: async () => {
 		try {
 			// 在這裡進行 API 請求，例如使用 fetch 或 axios

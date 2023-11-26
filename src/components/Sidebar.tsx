@@ -4,7 +4,7 @@ import { RoadMapNodes } from '@/types'
 import styled from 'styled-components'
 import tw from 'twin.macro'
 import ExportButton from './ExportButton'
-import useFlowStore from '@/store/flow'
+import useFlowStore from '@/store/flowStore'
 import { Button } from './Button'
 
 const RoadNodesMapping: RoadMapNodes[] = [

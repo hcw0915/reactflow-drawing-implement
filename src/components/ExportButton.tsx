@@ -1,6 +1,6 @@
 import tw from 'twin.macro'
 import styled from 'styled-components'
-import useFlowStore from '@/store/flow'
+import useFlowStore from '@/store/flowStore'
 import { Button } from './Button'
 
 const ExportButton = () => {
