@@ -24,10 +24,6 @@ const ReactFlowContainer = styled.div`
 
 const EMPTY_FN = () => {}
 
-const ReactFlowContainer = styled.div`
-	${tw`w-screen h-screen`}
-`
-
 export default function App() {
 	const { t } = useTranslation()
 
@@ -48,8 +44,8 @@ export default function App() {
 	const [isModalOpen, setModalOpen] = useState(false)
 	const [category, setCategory] = useState('')
 
-	const openModal = () => setModalOpen(true)
-	const closeModal = () => setModalOpen(false)
+	const handleOpenModal = () => setModalOpen(true)
+	const handleCloseModal = () => setModalOpen(false)
 
 	const TNodes = nodes.map((item) => {
 		return {
@@ -57,10 +53,6 @@ export default function App() {
 			data: { ...item.data, label: t(item.data.label), name: item.data.label }
 		}
 	})
-
-	const handleEditMode = () => {
-		setIsEditable((prev) => !prev)
-	}
 
 	const handleViewClick = (e, ele) => {
 		setModalOpen(true)
@@ -75,16 +67,11 @@ export default function App() {
 
 	return (
 		<ReactFlowProvider>
-			<BasicModal isOpen={isModalOpen} onClose={closeModal}>
+			<BasicModal isOpen={isModalOpen} onClose={handleCloseModal}>
 				<SidePage category={category} setCategory={setCategory} />
 			</BasicModal>
 
-			<h1>{isEditable ? '編輯模式' : '檢視模式'}</h1>
-			<button onClick={handleEditMode} tw="p-4 bg-blue-500 text-white rounded">
-				toggle
-			</button>
-
-			<SideBar />
+			<SideBar isEditable={isEditable} setIsEditable={setIsEditable} />
 			<ReactFlowContainer>
 				<ReactFlow
 					nodes={nodes}

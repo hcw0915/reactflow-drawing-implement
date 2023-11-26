@@ -4,7 +4,7 @@ import tw from 'twin.macro'
 
 type ButtonProps = {
 	children: React.ReactNode
-	onClickfn: () => void
+	onClick: () => void
 }
 
 const ButtonContainer = styled.button`
@@ -14,6 +14,6 @@ const ButtonContainer = styled.button`
 	}
 `
 
-export const Button = ({ children, onClickfn }: ButtonProps) => {
-	return <ButtonContainer onClick={onClickfn}>{children}</ButtonContainer>
+export const Button = ({ children, onClick }: ButtonProps) => {
+	return <ButtonContainer onClick={onClick}>{children}</ButtonContainer>
 }
