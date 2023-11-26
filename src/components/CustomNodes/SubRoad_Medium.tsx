@@ -11,7 +11,7 @@ type CustomData = {
 		description?: string
 	}
 	isConnectable?: boolean
-	size: 'small' | 'medium' | 'large'
+	size?: 'small' | 'medium' | 'large'
 }
 
 const SubRoadContainer = styled.div<{ size: 'small' | 'medium' | 'large' }>`

@@ -8,7 +8,10 @@ type ButtonProps = {
 }
 
 const ButtonContainer = styled.button`
-	${tw`bg-amber-500 text-lg p-3 rounded-xl`}
+	${tw`bg-gray-700 text-white text-lg p-2 mx-3 my-1 rounded-r-3xl w-full `}
+	&:hover {
+		${tw`bg-gray-300 text-black`}
+	}
 `
 
 export const Button = ({ children, onClickfn }: ButtonProps) => {
