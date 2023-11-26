@@ -1,31 +1,20 @@
-import React, { ReactNode } from 'react'
 import aa from '../assets/react.svg'
 import { RoadMapNodes } from '@/types'
 import styled from 'styled-components'
 import tw from 'twin.macro'
 import ExportButton from './ExportButton'
-import useFlowStore from '@/store/flowStore'
+import useFlowStore from '@/stores/flowStore'
 import { Button } from './Button'
 
-const RoadNodesMapping: RoadMapNodes[] = [
-	{
-		id: '1',
-		label: 'mainRoad',
-		type: 'primary',
-		image: '',
-		bgColor: '',
-		component: <div>test</div>
-	}
-]
-
 const NavbarContainer = styled.nav`
-	${tw`bg-gray-500 fixed gap-[0.5rem] flex top-10 w-[80%] justify-center items-center py-4 text-center z-50 rounded-2xl`}
-	left: 50%;
+	${tw`bg-gray-400 fixed gap-[0.5rem] flex-col left-20 top-10 py-4 text-center z-50 rounded-2xl w-[10rem]`}
+	width: 10rem; /* 設定寬度，可以根據實際需求調整 */
+	height: 90vh; /* 保持全屏高度，可以根據實際需求調整 */
 	transform: translateX(-50%);
 `
 
 const NavBarButton = styled.div`
-	${tw`text-[white] text-[0.875rem] px-[20px] py-[15px] inline-block`}
+	${tw`text-[white] text-[0.875rem] p-[10px] inline-block`}
 `
 
 export const SideBar = () => {

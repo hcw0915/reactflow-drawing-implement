@@ -1,9 +1,7 @@
-import { ConnectData } from '@/types'
-import React, { memo, useState } from 'react'
+import { memo, useState } from 'react'
 import { Handle, OnConnect, Position } from 'reactflow'
 import styled from 'styled-components'
 import tw from 'twin.macro'
-import svg from '@/assets/react.svg'
 
 type CustomData = {
 	data?: {
@@ -11,7 +9,7 @@ type CustomData = {
 		description?: string
 	}
 	isConnectable?: boolean
-	size: 'small' | 'medium' | 'large'
+	size?: 'small' | 'medium' | 'large'
 }
 
 const SubRoadContainer = styled.div<{ size: 'small' | 'medium' | 'large' }>`

@@ -1,52 +1,28 @@
-import React, { DragEvent, MouseEvent, useCallback, useState } from 'react'
+import { useState } from 'react'
 import ReactFlow, {
 	MiniMap,
 	Controls,
 	Background,
-	useNodesState,
-	useEdgesState,
-	addEdge,
-	Node,
-	Edge,
-	Connection,
 	BackgroundVariant,
-	NodeDragHandler,
 	ReactFlowProvider,
-	NodeMouseHandler,
-	MarkerType,
-	ConnectionMode,
-	NodeTypes,
-	OnInit
+	ConnectionMode
 } from 'reactflow'
 
 import tw from 'twin.macro'
 import styled from 'styled-components'
 import 'reactflow/dist/style.css'
 import { SideBar } from '@/components/Sidebar'
-import { MainRoad } from '@/components/CustomNodes/MainRoad'
-import { SubRoad_Small } from '@/components/CustomNodes/SubRoad_Small'
-import { SubRoad_Medium } from '@/components/CustomNodes/SubRoad_Medium'
-import { SubRoad_Large } from '@/components/CustomNodes/SubRoad_Large'
+import useFlowStore from '@/stores/flowStore'
 import { useTranslation } from 'react-i18next'
-import {
-	edges,
-	nodes,
-	handleConnect,
-	handleEdgesChange,
-	handleNodeClick,
-	handleNodeDoubleClick,
-	handleNodeDrag,
-	handleNodeDrop,
-	handleNodesChange,
-	handleEdgeClick
-} from './store'
+import { nodeTypes } from './components/CustomNodes'
+import { BasicModal } from './components/Modal/BasicModal'
+import { SidePage } from './components/SidePage'
 
-const nodeTypes: Record<string, React.ComponentType<NodeProps>> = {
-	MainRoad: MainRoad,
-	SubRoad_Small: SubRoad_Small,
-	SubRoad_Medium: SubRoad_Medium,
-	SubRoad_Large: SubRoad_Large
-}
+const ReactFlowContainer = styled.div`
+	${tw`w-[89%] h-[100vh] flex relative ml-auto bg-[#e9e9e9]`}
+`
+
+const EMPTY_FN = () => {}
 
 const ReactFlowContainer = styled.div`
 	${tw`w-screen h-screen`}
@@ -54,48 +30,93 @@ const ReactFlowContainer = styled.div`
 
 export default function App() {
 	const { t } = useTranslation()
-	const [reactFlowInstance, setReactFlowInstance] = useState(null)
 
-	const tNodes = nodes.map((item) => {
-		return { ...item, data: { ...item.data, label: t(item.data.label) } }
+	const nodes = useFlowStore((state) => state.nodes)
+	const edges = useFlowStore((state) => state.edges)
+	const handleConnect = useFlowStore((state) => state.handleConnect)
+	const handleNodesChange = useFlowStore((state) => state.handleNodesChange)
+	const handleEdgesChange = useFlowStore((state) => state.handleEdgesChange)
+	const handleNodeDrag = useFlowStore((state) => state.handleNodeDrag)
+	const handleNodeDrop = useFlowStore((state) => state.handleNodeDrop)
+	const handleNodeClick = useFlowStore((state) => state.handleNodeClick)
+	const handleNodeDoubleClick = useFlowStore(
+		(state) => state.handleNodeDoubleClick
+	)
+	const [reactFlowInstance, setReactFlowInstance] = useState(null)
+	const [isEditable, setIsEditable] = useState(false)
+
+	const [isModalOpen, setModalOpen] = useState(false)
+	const [category, setCategory] = useState('')
+
+	const openModal = () => setModalOpen(true)
+	const closeModal = () => setModalOpen(false)
+
+	const TNodes = nodes.map((item) => {
+		return {
+			...item,
+			data: { ...item.data, label: t(item.data.label), name: item.data.label }
+		}
 	})
+
+	const handleEditMode = () => {
+		setIsEditable((prev) => !prev)
+	}
+
+	const handleViewClick = (e, ele) => {
+		setModalOpen(true)
+		console.log('ele', ele.data.label)
+		setCategory(ele.data.label)
+	}
+	console.log(
+		nodes.map((node, i) => {
+			return { title: node.data.label }
+		})
+	)
 
 	return (
 		<ReactFlowProvider>
-			<h1>{t('welcome')}</h1>
+			<BasicModal isOpen={isModalOpen} onClose={closeModal}>
+				<SidePage category={category} setCategory={setCategory} />
+			</BasicModal>
+
+			<h1>{isEditable ? '編輯模式' : '檢視模式'}</h1>
+			<button onClick={handleEditMode} tw="p-4 bg-blue-500 text-white rounded">
+				toggle
+			</button>
+
+			<SideBar />
 			<ReactFlowContainer>
-				<SideBar />
 				<ReactFlow
-					nodes={tNodes}
+					nodes={nodes}
 					edges={edges}
 					onConnect={handleConnect}
-					onNodesChange={handleNodesChange}
-					onNodeClick={handleNodeClick}
+					onNodesChange={isEditable ? handleNodesChange : EMPTY_FN}
+					onNodeClick={isEditable ? handleNodeClick : handleViewClick}
 					onNodeDrag={handleNodeDrag}
+					onNodeDoubleClick={handleNodeDoubleClick}
 					onEdgesChange={handleEdgesChange}
-					// onEdgeClick={handleEdgeClick}
-					// onNodeMouseEnter={onNodeMouseEnter}
-					onDrop={(e) => handleNodeDrop(e, reactFlowInstance)}
 					snapToGrid={true}
 					snapGrid={[10, 10]}
 					preventScrolling={false}
 					onlyRenderVisibleElements // 最佳化 僅渲染可見節點
-					onInit={setReactFlowInstance as any} //! ANY 唉
-					// onDragOver={onDragOver}
-					onNodeDoubleClick={handleNodeDoubleClick}
-					nodeTypes={nodeTypes}
 					fitView
 					connectionMode={ConnectionMode.Loose}
+					onDrop={(e) => handleNodeDrop(e, reactFlowInstance)}
+					onInit={setReactFlowInstance as any}
+					nodeTypes={nodeTypes}
 					// selectionMode={'full'}
 					// selectionOnDrag={true}
 				>
 					<Controls />
 					<MiniMap />
-					<Background
-						variant={'dots' as BackgroundVariant}
-						gap={10}
-						size={1.3}
-					/>
+					{isEditable && (
+						<Background
+							variant={'lines' as BackgroundVariant}
+							gap={10}
+							size={1.3}
+							color="#bbbbbb"
+						/>
+					)}
 				</ReactFlow>
 			</ReactFlowContainer>
 		</ReactFlowProvider>

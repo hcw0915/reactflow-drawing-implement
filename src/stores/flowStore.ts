@@ -89,7 +89,6 @@ const useFlowStore = create<StoreState>()((set, get) => ({
 				source?.split('_').includes('MainRoad') &&
 				target?.split('_').includes('MainRoad')
 			) {
-				console.log('這是兩個maintype')
 				params = {
 					...params,
 					markerEnd: {
@@ -119,7 +118,6 @@ const useFlowStore = create<StoreState>()((set, get) => ({
 			console.log(updatedEdges)
 
 			return { edges: updatedEdges }
-			// return setEdges((eds) => addEdge(params, eds))
 		})
 	},
 
@@ -130,7 +128,10 @@ const useFlowStore = create<StoreState>()((set, get) => ({
 
 	handleNodeDoubleClick: (event, element) => {
 		set((state) => {
-			const label = prompt('Enter new description:') as string
+			const label = prompt(
+				'Enter new description:',
+				element.data.label
+			) as string
 			// 如果你要修改 nodes 中的元素，可以這樣做：
 			const newNodes = state.nodes.map((node) => {
 				if (node.id === element.id && label) {
